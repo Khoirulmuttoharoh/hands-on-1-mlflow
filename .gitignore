@@ -1,0 +1,13 @@
+@"
+.venv/
+.venv-1/
+.history/
+__pycache__/
+*.py[cod]
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+mlartifacts/
+.env
+.vscode/
+"@ | Set-Content .gitignore
